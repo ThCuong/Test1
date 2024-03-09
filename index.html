@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <button class="btn-Infomation header-nav active" id="info-btn">
+          <ion-icon name="accessibility-outline"></ion-icon>
+          <span>Thông tin</span>
+        </button>
+        <button class="btn-Links header-nav" id="link-btn">
+          <ion-icon name="link-outline"></ion-icon>
+          <span>Links</span>
+        </button>
+      </nav>
+    </header>
+
+    <div class="wrapper">
+      <div class="left">
+        <div class="form-box Links hidden" id="link-form">
+          <h2>Links</h2>
+          <div class="form-links">
+            <div class="input-wrapper input-wrapper-social active">
+              <div class="icon">
+                <ion-icon name="logo-facebook" class="input-icon"></ion-icon>
+                <span>Facebook</span>
+              </div>
+              <input
+                name="link_facebook"
+                type="text"
+                required
+                placeholder="https://www.facebook.com"
+                id="facebook-input"
+              />
+            </div>
+
+            <div class="input-wrapper input-wrapper-social active">
+              <div class="icon">
+                <ion-icon name="logo-instagram" class="input-icon"></ion-icon>
+                <span>Instagram</span>
+              </div>
+              <input
+                name="link_instagram"
+                type="text"
+                required
+                placeholder="https://www.instagram.com"
+                id="instagram-input"
+              />
+            </div>
+
+            <div class="input-wrapper input-wrapper-social">
+              <div class="icon">
+                <ion-icon name="logo-twitter" class="input-icon"></ion-icon>
+                <span>Twitter</span>
+              </div>
+              <input
+                name="link_twitter"
+                type="text"
+                required
+                placeholder="https://www.twitter.com"
+                id="twitter-input"
+              />
+            </div>
+
+            <div class="input-wrapper input-wrapper-social">
+              <div class="icon">
+                <ion-icon name="logo-youtube" class="input-icon"></ion-icon>
+                <span>Youtube</span>
+              </div>
+              <input
+                name="link_youtube"
+                type="text"
+                required
+                placeholder="https://www.youtube.com"
+                id="youtube-input"
+              />
+            </div>
+
+            <div class="input-wrapper input-wrapper-social">
+              <div class="icon">
+                <ion-icon name="logo-linkedin" class="input-icon"></ion-icon>
+                <span>Linked</span>
+              </div>
+              <input
+                name="link_linkedin"
+                type="text"
+                required
+                placeholder="https://www.linkedin.com"
+                id="linkedin-input"
+              />
+            </div>
+
+            <div class="Link">
+              <button class="btn-nav active">
+                <ion-icon name="logo-facebook" class="nav-icon"></ion-icon>
+                <span>Facebook</span>
+              </button>
+              <button class="btn-nav active">
+                <ion-icon name="logo-instagram" class="nav-icon"></ion-icon>
+                <span>Instagram</span>
+              </button>
+              <button class="btn-nav">
+                <ion-icon name="logo-twitter" class="nav-icon"></ion-icon>
+                <span>Twitter</span>
+              </button>
+              <button class="btn-nav">
+                <ion-icon name="logo-youtube" class="nav-icon"></ion-icon>
+                <span>Youtube</span>
+              </button>
+              <button class="btn-nav">
+                <ion-icon name="logo-linkedin" class="nav-icon"></ion-icon>
+                <span>Linkedin</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-box Links" id="info-form">
+          <h2>Thông tin</h2>
+          <div class="form-links">
+            <div class="input-wrapper">
+              <div class="icon">
+                <ion-icon name="call-outline" class="input-icon"></ion-icon>
+                <span>Điên thoại</span>
+              </div>
+              <input
+                type="text"
+                required
+                name="info_phone"
+                placeholder="Nhập số điện thoại của bạn."
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <div class="icon">
+                <ion-icon name="mail-outline" class="input-icon"></ion-icon>
+                <span>Email</span>
+              </div>
+              <input
+                name="info_email"
+                type="email"
+                required
+                placeholder="Nhập thông tin email của bạn."
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <div class="icon">
+                <ion-icon name="pin-outline" class="input-icon"></ion-icon>
+                <span>Địa chỉ</span>
+              </div>
+              <input
+                name="info_address"
+                type="text"
+                required
+                placeholder="Nhập thông tin địa chỉ của bạn."
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <div class="icon">
+                <ion-icon name="link-outline" class="input-icon"></ion-icon>
+                <span>Website</span>
+              </div>
+              <input
+                name="info_website"
+                type="text"
+                required
+                placeholder="Nhập thông tin website của bạn."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="inf">
+          <div class="header">
+            <div class="header-text">
+              <div class="header-text-label">Đến:</div>
+              <div class="header-text-content">Email người nhận</div>
+            </div>
+            <div class="header-text">
+              <div class="header-text-label">Chủ đề:</div>
+              <div class="header-text-content">
+                Kiểm tra chữ ký email mới của tôi!
+              </div>
+            </div>
+          </div>
+
+          <div class="nobody"></div>
+
+          <div class="body">
+            <div class="body-left">
+              <h2>Nguyễn Thanh Cường</h2>
+              <h4>Developer</h4>
+              <div class="info-row">
+                <div class="info-row-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+                <div class="info-row-label">Điên thoại:</div>
+                <div
+                  class="info-row-content binded-field"
+                  id="info_phone"
+                ></div>
+              </div>
+
+              <div class="info-row">
+                <div class="info-row-icon">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <div class="info-row-label">Email:</div>
+                <div
+                  class="info-row-content binded-field"
+                  id="info_email"
+                ></div>
+              </div>
+
+              <div class="info-row">
+                <div class="info-row-icon">
+                  <ion-icon name="pin-outline"></ion-icon>
+                </div>
+                <div class="info-row-label">Địa chỉ:</div>
+                <div
+                  class="info-row-content binded-field"
+                  id="info_address"
+                ></div>
+              </div>
+
+              <div class="info-row">
+                <div class="info-row-icon">
+                  <ion-icon name="link-outline"></ion-icon>
+                </div>
+                <div class="info-row-label">Website:</div>
+                <div
+                  class="info-row-content binded-field"
+                  id="info_website"
+                ></div>
+              </div>
+            </div>
+
+            <div class="body-right">
+              <div class="avatar">
+                <img src="https://picsum.photos/200" alt="" />
+              </div>
+              <div class="icon-list">
+                <a
+                  target="_blank"
+                  class="icon-avatar-wrapper active binded-field"
+                  id="link_facebook"
+                >
+                  <ion-icon name="logo-facebook" class="icon-avatar"></ion-icon>
+                </a>
+                <a
+                  target="_blank"
+                  class="icon-avatar-wrapper active binded-field"
+                  id="link_instagram"
+                >
+                  <ion-icon
+                    name="logo-instagram"
+                    class="icon-avatar binded-field"
+                  ></ion-icon>
+                </a>
+                <a
+                  target="_blank"
+                  class="icon-avatar-wrapper binded-field"
+                  id="link_twitter"
+                >
+                  <ion-icon name="logo-twitter" class="icon-avatar"></ion-icon>
+                </a>
+                <a
+                  target="_blank"
+                  class="icon-avatar-wrapper binded-field"
+                  id="link_youtube"
+                >
+                  <ion-icon name="logo-youtube" class="icon-avatar"></ion-icon>
+                </a>
+                <a
+                  target="_blank"
+                  class="icon-avatar-wrapper binded-field"
+                  id="link_linkedin"
+                >
+                  <ion-icon name="logo-linkedin" class="icon-avatar"></ion-icon>
+                </a>
+              </div>
+              <div></div>
+            </div>
+
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
